@@ -21,9 +21,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.R;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

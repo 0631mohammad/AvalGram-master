@@ -18,8 +18,8 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RadioButton;

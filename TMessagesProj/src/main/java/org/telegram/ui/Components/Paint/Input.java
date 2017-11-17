@@ -3,7 +3,7 @@ package org.telegram.ui.Components.Paint;
 import android.graphics.Matrix;
 import android.view.MotionEvent;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 
 import java.util.Vector;
 

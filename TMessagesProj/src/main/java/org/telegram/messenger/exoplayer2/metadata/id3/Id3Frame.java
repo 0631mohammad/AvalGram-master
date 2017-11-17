@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata.id3;
+package org.mougram.messenger.exoplayer2.metadata.id3;
 
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 
 /**
  * Base class for ID3 frames.

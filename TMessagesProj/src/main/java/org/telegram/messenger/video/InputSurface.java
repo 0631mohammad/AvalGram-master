@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.video;
+package org.mougram.messenger.video;
 
 import android.annotation.TargetApi;
 import android.opengl.EGL14;

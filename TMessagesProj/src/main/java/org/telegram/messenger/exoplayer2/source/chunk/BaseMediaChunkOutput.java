@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.chunk;
+package org.mougram.messenger.exoplayer2.source.chunk;
 
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.extractor.DefaultTrackOutput;
-import org.avalgram.messenger.exoplayer2.extractor.DummyTrackOutput;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper.TrackOutputProvider;
+import org.mougram.messenger.exoplayer2.extractor.DefaultTrackOutput;
+import org.mougram.messenger.exoplayer2.extractor.DummyTrackOutput;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper.TrackOutputProvider;
 
 /**
  * An output for {@link BaseMediaChunk}s.

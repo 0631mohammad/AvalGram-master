@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.video;
+package org.mougram.messenger.video;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;

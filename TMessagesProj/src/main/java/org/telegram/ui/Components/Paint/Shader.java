@@ -4,7 +4,7 @@ import android.graphics.Color;
 import android.opengl.GLES20;
 import android.util.Log;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.util.HashMap;
 import java.util.Map;

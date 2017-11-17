@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ogg;
+package org.mougram.messenger.exoplayer2.extractor.ogg;
 
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.SeekMap;
-import org.avalgram.messenger.exoplayer2.util.FlacStreamInfo;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.SeekMap;
+import org.mougram.messenger.exoplayer2.util.FlacStreamInfo;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;

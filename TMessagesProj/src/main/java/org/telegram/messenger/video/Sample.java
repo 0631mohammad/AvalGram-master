@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.video;
+package org.mougram.messenger.video;
 
 public class Sample {
     private long offset = 0;

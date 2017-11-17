@@ -24,8 +24,8 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.ChatBigEmptyView;

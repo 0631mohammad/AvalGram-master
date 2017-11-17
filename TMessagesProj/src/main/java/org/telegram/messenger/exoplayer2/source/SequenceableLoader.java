@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source;
+package org.mougram.messenger.exoplayer2.source;
 
-import org.avalgram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.C;
 
 // TODO: Clarify the requirements for implementing this interface [Internal ref: b/36250203].
 /**

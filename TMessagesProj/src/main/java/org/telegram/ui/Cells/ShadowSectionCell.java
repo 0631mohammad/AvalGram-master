@@ -11,8 +11,8 @@ package org.telegram.ui.Cells;
 import android.content.Context;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 
 public class ShadowSectionCell extends View {

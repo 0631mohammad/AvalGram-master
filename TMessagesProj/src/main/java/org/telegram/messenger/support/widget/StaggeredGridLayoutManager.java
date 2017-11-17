@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static org.avalgram.messenger.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
-import static org.avalgram.messenger.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
-import static org.avalgram.messenger.support.widget.LayoutState.LAYOUT_END;
-import static org.avalgram.messenger.support.widget.LayoutState.LAYOUT_START;
-import static org.avalgram.messenger.support.widget.RecyclerView.NO_POSITION;
+import static org.mougram.messenger.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
+import static org.mougram.messenger.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
+import static org.mougram.messenger.support.widget.LayoutState.LAYOUT_END;
+import static org.mougram.messenger.support.widget.LayoutState.LAYOUT_START;
+import static org.mougram.messenger.support.widget.RecyclerView.NO_POSITION;
 
 import android.content.Context;
 import android.graphics.PointF;

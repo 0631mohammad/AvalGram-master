@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ts;
+package org.mougram.messenger.exoplayer2.extractor.ts;
 
 import android.support.annotation.IntDef;
 import android.util.SparseArray;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.ArrayList;

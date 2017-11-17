@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ts;
+package org.mougram.messenger.exoplayer2.extractor.ts;
 
 import android.support.annotation.IntDef;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 import android.util.SparseIntArray;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.extractor.Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorsFactory;
-import org.avalgram.messenger.exoplayer2.extractor.PositionHolder;
-import org.avalgram.messenger.exoplayer2.extractor.SeekMap;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.Flags;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsPayloadReader.DvbSubtitleInfo;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.ParsableBitArray;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.TimestampAdjuster;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.extractor.Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorOutput;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorsFactory;
+import org.mougram.messenger.exoplayer2.extractor.PositionHolder;
+import org.mougram.messenger.exoplayer2.extractor.SeekMap;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory.Flags;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsPayloadReader.DvbSubtitleInfo;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsPayloadReader.EsInfo;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.ParsableBitArray;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.TimestampAdjuster;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

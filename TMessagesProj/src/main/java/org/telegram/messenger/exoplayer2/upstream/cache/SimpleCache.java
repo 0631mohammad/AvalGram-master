@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
 import android.os.ConditionVariable;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;

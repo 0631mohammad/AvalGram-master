@@ -13,32 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.audio;
+package org.mougram.messenger.exoplayer2.audio;
 
 import android.media.audiofx.Virtualizer;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
 import android.support.annotation.IntDef;
-import org.avalgram.messenger.exoplayer2.BaseRenderer;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlaybackException;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.FormatHolder;
-import org.avalgram.messenger.exoplayer2.PlaybackParameters;
-import org.avalgram.messenger.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.avalgram.messenger.exoplayer2.decoder.SimpleDecoder;
-import org.avalgram.messenger.exoplayer2.decoder.SimpleOutputBuffer;
-import org.avalgram.messenger.exoplayer2.drm.DrmSession;
-import org.avalgram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaCrypto;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.MediaClock;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.TraceUtil;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.BaseRenderer;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlaybackException;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.FormatHolder;
+import org.mougram.messenger.exoplayer2.PlaybackParameters;
+import org.mougram.messenger.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.decoder.DecoderCounters;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.decoder.SimpleDecoder;
+import org.mougram.messenger.exoplayer2.decoder.SimpleOutputBuffer;
+import org.mougram.messenger.exoplayer2.drm.DrmSession;
+import org.mougram.messenger.exoplayer2.drm.DrmSessionManager;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaCrypto;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.MediaClock;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.TraceUtil;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 

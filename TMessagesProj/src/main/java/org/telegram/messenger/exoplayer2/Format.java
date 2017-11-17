@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.media.MediaFormat;
 import android.os.Parcel;
 import android.os.Parcelable;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData;
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.Util;
-import org.avalgram.messenger.exoplayer2.video.ColorInfo;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.video.ColorInfo;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;

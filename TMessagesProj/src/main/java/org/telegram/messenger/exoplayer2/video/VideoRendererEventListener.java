@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.video;
+package org.mougram.messenger.exoplayer2.video;
 
 import android.os.Handler;
 import android.os.SystemClock;
 import android.view.Surface;
 import android.view.TextureView;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.Renderer;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.Renderer;
+import org.mougram.messenger.exoplayer2.decoder.DecoderCounters;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 
 /**
  * Listener of video {@link Renderer} events.

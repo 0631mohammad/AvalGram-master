@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.cea;
+package org.mougram.messenger.exoplayer2.text.cea;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.text.Subtitle;
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoder;
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.avalgram.messenger.exoplayer2.text.SubtitleInputBuffer;
-import org.avalgram.messenger.exoplayer2.text.SubtitleOutputBuffer;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.text.Subtitle;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoder;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoderException;
+import org.mougram.messenger.exoplayer2.text.SubtitleInputBuffer;
+import org.mougram.messenger.exoplayer2.text.SubtitleOutputBuffer;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.util.LinkedList;
 import java.util.TreeSet;
 

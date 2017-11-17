@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.mkv;
+package org.mougram.messenger.exoplayer2.extractor.mkv;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.io.IOException;
 
 /**
@@ -40,7 +40,7 @@ import java.io.IOException;
   }
 
   /**
-   * @see org.avalgram.messenger.exoplayer2.extractor.Extractor#sniff(ExtractorInput)
+   * @see org.mougram.messenger.exoplayer2.extractor.Extractor#sniff(ExtractorInput)
    */
   public boolean sniff(ExtractorInput input) throws IOException, InterruptedException {
     long inputLength = input.getLength();

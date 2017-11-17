@@ -24,11 +24,11 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

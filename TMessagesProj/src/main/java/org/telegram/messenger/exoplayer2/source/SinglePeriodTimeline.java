@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source;
+package org.mougram.messenger.exoplayer2.source;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Timeline;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Timeline;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 
 /**
  * A {@link Timeline} consisting of a single period and static window.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.chunk;
+package org.mougram.messenger.exoplayer2.source.chunk;
 
 import java.io.IOException;
 import java.util.List;

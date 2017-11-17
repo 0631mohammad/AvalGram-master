@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,16 +23,16 @@ import android.support.v4.util.LongSparseArray;
 import android.support.v4.util.Pools;
 import android.view.View;
 
-import static org.avalgram.messenger.support.widget.RecyclerView.ViewHolder;
-import static org.avalgram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import static org.mougram.messenger.support.widget.RecyclerView.ViewHolder;
+import static org.mougram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_PRE_AND_POST;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_AND_DISAPPEAR;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE_AND_POST;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_DISAPPEARED;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE;
-import static org.avalgram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_POST;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_PRE_AND_POST;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_AND_DISAPPEAR;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE_AND_POST;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_DISAPPEARED;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE;
+import static org.mougram.messenger.support.widget.ViewInfoStore.InfoRecord.FLAG_POST;
 /**
  * This class abstracts all tracking for Views to run animations.
  */

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.audio;
+package org.mougram.messenger.exoplayer2.audio;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -23,11 +23,11 @@ import android.media.AudioTimestamp;
 import android.os.ConditionVariable;
 import android.os.SystemClock;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.PlaybackParameters;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.PlaybackParameters;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.lang.reflect.Method;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

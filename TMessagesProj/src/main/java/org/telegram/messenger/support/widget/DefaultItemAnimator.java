@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.v4.animation.AnimatorCompatHelper;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v4.view.ViewPropertyAnimatorListener;
-import org.avalgram.messenger.support.widget.RecyclerView.ViewHolder;
+import org.mougram.messenger.support.widget.RecyclerView.ViewHolder;
 import android.view.View;
 
 import java.util.ArrayList;

@@ -16,7 +16,7 @@ import android.os.Build;
 import android.view.MotionEvent;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 
 public class PhotoFilterBlurControl extends FrameLayout {
 

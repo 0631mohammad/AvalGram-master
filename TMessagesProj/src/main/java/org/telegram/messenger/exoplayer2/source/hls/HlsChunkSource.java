@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls;
+package org.mougram.messenger.exoplayer2.source.hls;
 
 import android.net.Uri;
 import android.os.SystemClock;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.source.BehindLiveWindowException;
-import org.avalgram.messenger.exoplayer2.source.TrackGroup;
-import org.avalgram.messenger.exoplayer2.source.chunk.Chunk;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.avalgram.messenger.exoplayer2.source.chunk.DataChunk;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import org.avalgram.messenger.exoplayer2.trackselection.BaseTrackSelection;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.util.TimestampAdjuster;
-import org.avalgram.messenger.exoplayer2.util.UriUtil;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.source.BehindLiveWindowException;
+import org.mougram.messenger.exoplayer2.source.TrackGroup;
+import org.mougram.messenger.exoplayer2.source.chunk.Chunk;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import org.mougram.messenger.exoplayer2.source.chunk.DataChunk;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import org.mougram.messenger.exoplayer2.trackselection.BaseTrackSelection;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.util.TimestampAdjuster;
+import org.mougram.messenger.exoplayer2.util.UriUtil;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Arrays;

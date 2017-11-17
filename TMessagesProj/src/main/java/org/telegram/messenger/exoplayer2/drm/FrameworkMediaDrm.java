@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 import android.annotation.TargetApi;
 import android.media.DeniedByServerException;
@@ -24,7 +24,7 @@ import android.media.NotProvisionedException;
 import android.media.ResourceBusyException;
 import android.media.UnsupportedSchemeException;
 import android.support.annotation.NonNull;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;

@@ -12,12 +12,12 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.UserConfig;
-import org.avalgram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.R;
+import org.mougram.messenger.UserConfig;
+import org.mougram.messenger.support.widget.RecyclerView;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.DrawerActionCell;
 import org.telegram.ui.Cells.DividerCell;

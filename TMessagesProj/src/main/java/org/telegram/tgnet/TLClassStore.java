@@ -8,7 +8,7 @@
 
 package org.telegram.tgnet;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.util.HashMap;
 

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
-import org.avalgram.messenger.exoplayer2.upstream.DataSink;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource.Factory;
-import org.avalgram.messenger.exoplayer2.upstream.FileDataSourceFactory;
-import org.avalgram.messenger.exoplayer2.upstream.cache.CacheDataSource.EventListener;
+import org.mougram.messenger.exoplayer2.upstream.DataSink;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSource.Factory;
+import org.mougram.messenger.exoplayer2.upstream.FileDataSourceFactory;
+import org.mougram.messenger.exoplayer2.upstream.cache.CacheDataSource.EventListener;
 
 /**
  * A {@link DataSource.Factory} that produces {@link CacheDataSource}.

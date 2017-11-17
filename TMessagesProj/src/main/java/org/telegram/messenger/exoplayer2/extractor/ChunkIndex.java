@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor;
+package org.mougram.messenger.exoplayer2.extractor;
 
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 /**
  * Defines chunks of samples within a media stream.

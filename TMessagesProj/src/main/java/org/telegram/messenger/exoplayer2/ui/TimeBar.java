@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.ui;
+package org.mougram.messenger.exoplayer2.ui;
 
 import android.support.annotation.Nullable;
 import android.view.View;

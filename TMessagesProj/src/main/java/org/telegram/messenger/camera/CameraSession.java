@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.camera;
+package org.mougram.messenger.camera;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,8 +20,8 @@ import android.view.OrientationEventListener;
 import android.view.Surface;
 import android.view.WindowManager;
 
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
 
 import java.util.ArrayList;
 

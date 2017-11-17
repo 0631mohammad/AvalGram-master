@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.audioinfo.m4a;
+package org.mougram.messenger.audioinfo.m4a;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import org.avalgram.messenger.audioinfo.AudioInfo;
-import org.avalgram.messenger.audioinfo.mp3.ID3v1Genre;
+import org.mougram.messenger.audioinfo.AudioInfo;
+import org.mougram.messenger.audioinfo.mp3.ID3v1Genre;
 
 import java.io.IOException;
 import java.io.InputStream;

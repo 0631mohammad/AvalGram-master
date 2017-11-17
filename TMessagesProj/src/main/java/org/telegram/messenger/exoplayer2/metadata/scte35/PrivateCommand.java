@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata.scte35;
+package org.mougram.messenger.exoplayer2.metadata.scte35;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 
 /**
  * Represents a private command as defined in SCTE35, Section 9.3.6.

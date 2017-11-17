@@ -15,7 +15,7 @@
  */
 
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import java.util.ArrayList;
 

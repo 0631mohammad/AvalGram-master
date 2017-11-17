@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.mediacodec;
+package org.mougram.messenger.exoplayer2.mediacodec;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -24,8 +24,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 import android.util.SparseIntArray;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

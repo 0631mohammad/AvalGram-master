@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.cea;
+package org.mougram.messenger.exoplayer2.text.cea;
 
-import org.avalgram.messenger.exoplayer2.text.SubtitleOutputBuffer;
+import org.mougram.messenger.exoplayer2.text.SubtitleOutputBuffer;
 
 /**
  * A {@link SubtitleOutputBuffer} for {@link CeaDecoder}s.

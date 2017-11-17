@@ -23,8 +23,8 @@ import android.os.Handler;
 import android.os.Looper;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
 
 import java.io.File;
 import java.util.concurrent.ScheduledThreadPoolExecutor;

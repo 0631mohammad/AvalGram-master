@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls.playlist;
+package org.mougram.messenger.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.source.UnrecognizedInputFormatException;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.avalgram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.source.UnrecognizedInputFormatException;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import org.mougram.messenger.exoplayer2.upstream.ParsingLoadable;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

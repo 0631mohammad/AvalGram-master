@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.browser;
+package org.mougram.messenger.browser;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -19,20 +19,20 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MediaController;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.ShareBroadcastReceiver;
-import org.avalgram.messenger.support.customtabs.CustomTabsCallback;
-import org.avalgram.messenger.support.customtabs.CustomTabsClient;
-import org.avalgram.messenger.support.customtabs.CustomTabsIntent;
-import org.avalgram.messenger.support.customtabs.CustomTabsServiceConnection;
-import org.avalgram.messenger.support.customtabs.CustomTabsSession;
-import org.avalgram.messenger.support.customtabsclient.shared.CustomTabsHelper;
-import org.avalgram.messenger.support.customtabsclient.shared.ServiceConnection;
-import org.avalgram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MediaController;
+import org.mougram.messenger.R;
+import org.mougram.messenger.ShareBroadcastReceiver;
+import org.mougram.messenger.support.customtabs.CustomTabsCallback;
+import org.mougram.messenger.support.customtabs.CustomTabsClient;
+import org.mougram.messenger.support.customtabs.CustomTabsIntent;
+import org.mougram.messenger.support.customtabs.CustomTabsServiceConnection;
+import org.mougram.messenger.support.customtabs.CustomTabsSession;
+import org.mougram.messenger.support.customtabsclient.shared.CustomTabsHelper;
+import org.mougram.messenger.support.customtabsclient.shared.ServiceConnection;
+import org.mougram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.LaunchActivity;
 

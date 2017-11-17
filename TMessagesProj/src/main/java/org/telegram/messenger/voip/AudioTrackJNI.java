@@ -1,4 +1,4 @@
-package org.avalgram.messenger.voip;
+package org.mougram.messenger.voip;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -10,7 +10,7 @@ import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.util.Log;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.nio.ByteBuffer;
 

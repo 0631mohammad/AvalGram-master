@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 /**
  * Information about the ExoPlayer library.
@@ -43,13 +43,13 @@ public interface ExoPlayerLibraryInfo {
   int VERSION_INT = 2004000;
 
   /**
-   * Whether the library was compiled with {@link org.avalgram.messenger.exoplayer2.util.Assertions}
+   * Whether the library was compiled with {@link org.mougram.messenger.exoplayer2.util.Assertions}
    * checks enabled.
    */
   boolean ASSERTIONS_ENABLED = true;
 
   /**
-   * Whether the library was compiled with {@link org.avalgram.messenger.exoplayer2.util.TraceUtil}
+   * Whether the library was compiled with {@link org.mougram.messenger.exoplayer2.util.TraceUtil}
    * trace enabled.
    */
   boolean TRACE_ENABLED = true;

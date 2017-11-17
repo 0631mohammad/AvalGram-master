@@ -1,11 +1,11 @@
-package org.avalgram.messenger.voip;
+package org.mougram.messenger.voip;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.view.KeyEvent;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 /**
  * Created by grishka on 21.11.16.

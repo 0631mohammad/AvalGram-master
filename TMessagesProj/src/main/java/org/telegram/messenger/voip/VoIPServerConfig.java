@@ -1,8 +1,8 @@
-package org.avalgram.messenger.voip;
+package org.mougram.messenger.voip;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.util.ArrayList;
 import java.util.Iterator;

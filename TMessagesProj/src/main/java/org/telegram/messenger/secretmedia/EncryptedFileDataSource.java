@@ -6,16 +6,16 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.secretmedia;
+package org.mougram.messenger.secretmedia;
 
 import android.net.Uri;
 
-import org.avalgram.messenger.FileLoader;
-import org.avalgram.messenger.Utilities;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.TransferListener;
+import org.mougram.messenger.FileLoader;
+import org.mougram.messenger.Utilities;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.TransferListener;
 
 import java.io.EOFException;
 import java.io.File;

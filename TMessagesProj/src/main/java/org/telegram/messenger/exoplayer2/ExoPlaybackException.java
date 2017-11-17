@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.support.annotation.IntDef;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

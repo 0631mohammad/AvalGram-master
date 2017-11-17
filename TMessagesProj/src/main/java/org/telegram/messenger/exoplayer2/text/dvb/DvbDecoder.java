@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.dvb;
+package org.mougram.messenger.exoplayer2.text.dvb;
 
-import org.avalgram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.util.List;
 
 /**

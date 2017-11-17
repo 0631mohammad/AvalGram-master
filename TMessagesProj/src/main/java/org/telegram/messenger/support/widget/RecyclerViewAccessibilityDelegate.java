@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.os.Bundle;
 import android.support.v4.view.AccessibilityDelegateCompat;

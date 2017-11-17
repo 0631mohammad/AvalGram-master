@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.annotation.TargetApi;
 import android.graphics.SurfaceTexture;
@@ -26,17 +26,17 @@ import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
-import org.avalgram.messenger.exoplayer2.audio.AudioRendererEventListener;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.text.TextRenderer;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.avalgram.messenger.exoplayer2.video.VideoRendererEventListener;
+import org.mougram.messenger.exoplayer2.audio.AudioRendererEventListener;
+import org.mougram.messenger.exoplayer2.decoder.DecoderCounters;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.metadata.MetadataRenderer;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.TextRenderer;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelectionArray;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelector;
+import org.mougram.messenger.exoplayer2.video.VideoRendererEventListener;
 import java.util.List;
 
 /**

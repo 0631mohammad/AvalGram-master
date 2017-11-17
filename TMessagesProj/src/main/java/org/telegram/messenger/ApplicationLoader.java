@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -107,7 +107,7 @@ public class ApplicationLoader extends Application {
         } catch (Exception e) {
             FileLog.e(e);
         }
-        return new File("/data/data/org.avalgram.messenger/files");
+        return new File("/data/data/org.mougram.messenger/files");
     }
 
     public static void postInitApplication() {

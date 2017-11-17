@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash;
+package org.mougram.messenger.exoplayer2.source.dash;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.SparseArray;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlayer;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.Timeline;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.source.MediaPeriod;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.DashManifest;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.DashManifestParser;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.UtcTimingElement;
-import org.avalgram.messenger.exoplayer2.upstream.Allocator;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.Loader;
-import org.avalgram.messenger.exoplayer2.upstream.LoaderErrorThrower;
-import org.avalgram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlayer;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.Timeline;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.source.MediaPeriod;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.DashManifest;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.DashManifestParser;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.UtcTimingElement;
+import org.mougram.messenger.exoplayer2.upstream.Allocator;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.Loader;
+import org.mougram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import org.mougram.messenger.exoplayer2.upstream.ParsingLoadable;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -569,7 +569,7 @@ public final class DashMediaSource implements MediaSource {
   private static final class PeriodSeekInfo {
 
     public static PeriodSeekInfo createPeriodSeekInfo(
-        org.avalgram.messenger.exoplayer2.source.dash.manifest.Period period, long durationUs) {
+        org.mougram.messenger.exoplayer2.source.dash.manifest.Period period, long durationUs) {
       int adaptationSetCount = period.adaptationSets.size();
       long availableStartTimeUs = 0;
       long availableEndTimeUs = Long.MAX_VALUE;
@@ -701,7 +701,7 @@ public final class DashMediaSource implements MediaSource {
         periodIndex++;
         periodDurationUs = manifest.getPeriodDurationUs(periodIndex);
       }
-      org.avalgram.messenger.exoplayer2.source.dash.manifest.Period period =
+      org.mougram.messenger.exoplayer2.source.dash.manifest.Period period =
           manifest.getPeriod(periodIndex);
       int videoAdaptationSetIndex = period.getAdaptationSetIndex(C.TRACK_TYPE_VIDEO);
       if (videoAdaptationSetIndex == C.INDEX_UNSET) {

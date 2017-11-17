@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
 import java.io.File;
 import java.io.IOException;
@@ -220,7 +220,7 @@ public interface Cache {
 
   /**
    * Returns the content length for the given key if one set, or {@link
-   * org.avalgram.messenger.exoplayer2.C#LENGTH_UNSET} otherwise.
+   * org.mougram.messenger.exoplayer2.C#LENGTH_UNSET} otherwise.
    *
    * @param key The cache key for the data.
    */

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.customtabs;
+package org.mougram.messenger.support.customtabs;
 
 import android.app.Activity;
 import android.app.PendingIntent;

@@ -25,10 +25,10 @@ import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
 import org.telegram.ui.ActionBar.ActionBar;
 
 import java.util.ArrayList;

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
 import java.util.UUID;
 
 /**

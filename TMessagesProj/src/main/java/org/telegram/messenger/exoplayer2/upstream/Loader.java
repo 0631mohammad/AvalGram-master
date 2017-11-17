@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream;
+package org.mougram.messenger.exoplayer2.upstream;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -21,9 +21,9 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.SystemClock;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.TraceUtil;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.TraceUtil;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.concurrent.ExecutorService;
 

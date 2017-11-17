@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.mediacodec;
+package org.mougram.messenger.exoplayer2.mediacodec;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
@@ -24,22 +24,22 @@ import android.media.MediaFormat;
 import android.os.Looper;
 import android.os.SystemClock;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.BaseRenderer;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlaybackException;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.FormatHolder;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.avalgram.messenger.exoplayer2.drm.DrmSession;
-import org.avalgram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.avalgram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.avalgram.messenger.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import org.avalgram.messenger.exoplayer2.source.MediaPeriod;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.NalUnitUtil;
-import org.avalgram.messenger.exoplayer2.util.TraceUtil;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.BaseRenderer;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlaybackException;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.FormatHolder;
+import org.mougram.messenger.exoplayer2.decoder.DecoderCounters;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.drm.DrmSession;
+import org.mougram.messenger.exoplayer2.drm.DrmSessionManager;
+import org.mougram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
+import org.mougram.messenger.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import org.mougram.messenger.exoplayer2.source.MediaPeriod;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.NalUnitUtil;
+import org.mougram.messenger.exoplayer2.util.TraceUtil;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 /**
  * An exception when doing drm decryption using the In-App Drm

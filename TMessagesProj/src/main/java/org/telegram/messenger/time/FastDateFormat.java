@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.time;
+package org.mougram.messenger.time;
 
 import java.text.DateFormat;
 import java.text.FieldPosition;

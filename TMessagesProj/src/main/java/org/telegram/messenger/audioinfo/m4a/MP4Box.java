@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.audioinfo.m4a;
+package org.mougram.messenger.audioinfo.m4a;
 
-import org.avalgram.messenger.audioinfo.util.PositionInputStream;
-import org.avalgram.messenger.audioinfo.util.RangeInputStream;
+import org.mougram.messenger.audioinfo.util.PositionInputStream;
+import org.mougram.messenger.audioinfo.util.RangeInputStream;
 
 import java.io.DataInput;
 import java.io.DataInputStream;

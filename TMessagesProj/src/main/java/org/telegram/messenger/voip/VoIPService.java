@@ -6,7 +6,7 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.avalgram.messenger.voip;
+package org.mougram.messenger.voip;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -55,21 +55,21 @@ import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.KeyEvent;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.BuildConfig;
-import org.avalgram.messenger.BuildVars;
-import org.avalgram.messenger.ContactsController;
-import org.avalgram.messenger.FileLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.MessagesStorage;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.StatsController;
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.BuildConfig;
+import org.mougram.messenger.BuildVars;
+import org.mougram.messenger.ContactsController;
+import org.mougram.messenger.FileLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.MessagesStorage;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.R;
+import org.mougram.messenger.StatsController;
+import org.mougram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

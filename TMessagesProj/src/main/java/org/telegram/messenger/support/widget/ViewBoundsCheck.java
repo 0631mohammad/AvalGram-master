@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.IntDef;
 import android.view.View;

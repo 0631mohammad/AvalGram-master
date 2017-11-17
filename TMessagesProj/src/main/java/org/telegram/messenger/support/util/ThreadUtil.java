@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.util;
+package org.mougram.messenger.support.util;
 
 interface ThreadUtil<T> {
 

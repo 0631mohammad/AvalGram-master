@@ -14,7 +14,7 @@ import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 
 public class VideoSeekBarView extends View {
 

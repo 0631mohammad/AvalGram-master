@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.mp3;
+package org.mougram.messenger.exoplayer2.extractor.mp3;
 
-import org.avalgram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.C;
 
 /**
  * MP3 seeker that doesn't rely on metadata and seeks assuming the source has a constant bitrate.

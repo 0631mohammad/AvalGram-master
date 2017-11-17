@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -55,15 +55,15 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.audioinfo.AudioInfo;
-import org.avalgram.messenger.exoplayer2.ExoPlayer;
-import org.avalgram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
-import org.avalgram.messenger.query.SharedMediaQuery;
-import org.avalgram.messenger.video.InputSurface;
-import org.avalgram.messenger.video.MP4Builder;
-import org.avalgram.messenger.video.Mp4Movie;
-import org.avalgram.messenger.video.OutputSurface;
-import org.avalgram.messenger.voip.VoIPService;
+import org.mougram.messenger.audioinfo.AudioInfo;
+import org.mougram.messenger.exoplayer2.ExoPlayer;
+import org.mougram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
+import org.mougram.messenger.query.SharedMediaQuery;
+import org.mougram.messenger.video.InputSurface;
+import org.mougram.messenger.video.MP4Builder;
+import org.mougram.messenger.video.Mp4Movie;
+import org.mougram.messenger.video.OutputSurface;
+import org.mougram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.AlertDialog;

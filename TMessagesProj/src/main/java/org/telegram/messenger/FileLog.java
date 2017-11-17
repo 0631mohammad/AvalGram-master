@@ -6,11 +6,11 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.util.Log;
 
-import org.avalgram.messenger.time.FastDateFormat;
+import org.mougram.messenger.time.FastDateFormat;
 
 import java.io.File;
 import java.io.FileOutputStream;

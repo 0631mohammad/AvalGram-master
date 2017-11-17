@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.content.Context;
 import android.os.Looper;
-import org.avalgram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.avalgram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelector;
+import org.mougram.messenger.exoplayer2.drm.DrmSessionManager;
+import org.mougram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelector;
 
 /**
  * A factory for {@link ExoPlayer} instances.

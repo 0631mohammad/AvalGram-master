@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash;
+package org.mougram.messenger.exoplayer2.source.dash;
 
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData;
-import org.avalgram.messenger.exoplayer2.extractor.ChunkIndex;
-import org.avalgram.messenger.exoplayer2.extractor.Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.mkv.MatroskaExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
-import org.avalgram.messenger.exoplayer2.source.chunk.InitializationChunk;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.AdaptationSet;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.DashManifest;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.DashManifestParser;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.Period;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.RangedUri;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.Representation;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSourceInputStream;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.HttpDataSource;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData;
+import org.mougram.messenger.exoplayer2.extractor.ChunkIndex;
+import org.mougram.messenger.exoplayer2.extractor.Extractor;
+import org.mougram.messenger.exoplayer2.extractor.mkv.MatroskaExtractor;
+import org.mougram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
+import org.mougram.messenger.exoplayer2.source.chunk.InitializationChunk;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.AdaptationSet;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.DashManifest;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.DashManifestParser;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.Period;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.RangedUri;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.Representation;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSourceInputStream;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.HttpDataSource;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 import java.util.List;
 

@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.flv;
+package org.mougram.messenger.exoplayer2.extractor.flv;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.NalUnitUtil;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.video.AvcConfig;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.NalUnitUtil;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.video.AvcConfig;
 
 /**
  * Parses video tags from an FLV stream and extracts H.264 nal units.

@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.IntDef;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.audio.AudioCapabilities;
-import org.avalgram.messenger.exoplayer2.audio.AudioProcessor;
-import org.avalgram.messenger.exoplayer2.audio.AudioRendererEventListener;
-import org.avalgram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
-import org.avalgram.messenger.exoplayer2.drm.DrmSessionManager;
-import org.avalgram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
-import org.avalgram.messenger.exoplayer2.mediacodec.MediaCodecSelector;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.avalgram.messenger.exoplayer2.text.TextRenderer;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.avalgram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
-import org.avalgram.messenger.exoplayer2.video.VideoRendererEventListener;
+import org.mougram.messenger.exoplayer2.audio.AudioCapabilities;
+import org.mougram.messenger.exoplayer2.audio.AudioProcessor;
+import org.mougram.messenger.exoplayer2.audio.AudioRendererEventListener;
+import org.mougram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
+import org.mougram.messenger.exoplayer2.drm.DrmSessionManager;
+import org.mougram.messenger.exoplayer2.drm.FrameworkMediaCrypto;
+import org.mougram.messenger.exoplayer2.mediacodec.MediaCodecSelector;
+import org.mougram.messenger.exoplayer2.metadata.MetadataRenderer;
+import org.mougram.messenger.exoplayer2.text.TextRenderer;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelector;
+import org.mougram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
+import org.mougram.messenger.exoplayer2.video.VideoRendererEventListener;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Constructor;
@@ -183,7 +183,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       Class<?> clazz =
-          Class.forName("org.avalgram.messenger.exoplayer2.ext.vp9.LibvpxVideoRenderer");
+          Class.forName("org.mougram.messenger.exoplayer2.ext.vp9.LibvpxVideoRenderer");
       Constructor<?> constructor = clazz.getConstructor(boolean.class, long.class, Handler.class,
           VideoRendererEventListener.class, int.class);
       Renderer renderer = (Renderer) constructor.newInstance(true, allowedVideoJoiningTimeMs,
@@ -228,7 +228,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       Class<?> clazz =
-          Class.forName("org.avalgram.messenger.exoplayer2.ext.opus.LibopusAudioRenderer");
+          Class.forName("org.mougram.messenger.exoplayer2.ext.opus.LibopusAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class, AudioProcessor[].class);
       Renderer renderer = (Renderer) constructor.newInstance(eventHandler, eventListener,
@@ -243,7 +243,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       Class<?> clazz =
-          Class.forName("org.avalgram.messenger.exoplayer2.ext.flac.LibflacAudioRenderer");
+          Class.forName("org.mougram.messenger.exoplayer2.ext.flac.LibflacAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class, AudioProcessor[].class);
       Renderer renderer = (Renderer) constructor.newInstance(eventHandler, eventListener,
@@ -258,7 +258,7 @@ public class DefaultRenderersFactory implements RenderersFactory {
 
     try {
       Class<?> clazz =
-          Class.forName("org.avalgram.messenger.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
+          Class.forName("org.mougram.messenger.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class, AudioProcessor[].class);
       Renderer renderer = (Renderer) constructor.newInstance(eventHandler, eventListener,

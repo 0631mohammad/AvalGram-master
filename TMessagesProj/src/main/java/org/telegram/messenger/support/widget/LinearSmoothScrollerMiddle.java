@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.content.Context;
 import android.graphics.PointF;

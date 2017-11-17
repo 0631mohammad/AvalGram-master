@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.app.ActivityManager;
 import android.content.BroadcastReceiver;
@@ -25,7 +25,7 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 
-import org.avalgram.messenger.secretmedia.EncryptedFileInputStream;
+import org.mougram.messenger.secretmedia.EncryptedFileInputStream;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

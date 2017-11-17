@@ -31,8 +31,8 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.R;
 import org.telegram.ui.Components.LayoutHelper;
 
 import java.util.ArrayList;

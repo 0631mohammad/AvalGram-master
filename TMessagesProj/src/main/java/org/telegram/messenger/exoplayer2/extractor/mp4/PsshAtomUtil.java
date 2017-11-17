@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.mp4;
+package org.mougram.messenger.exoplayer2.extractor.mp4;
 
 import android.util.Log;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.nio.ByteBuffer;
 import java.util.UUID;
 

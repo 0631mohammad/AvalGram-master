@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.Nullable;
 import android.support.v4.os.TraceCompat;

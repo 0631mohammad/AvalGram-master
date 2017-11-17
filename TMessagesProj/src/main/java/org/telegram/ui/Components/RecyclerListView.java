@@ -31,11 +31,11 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.support.widget.LinearLayoutManager;
-import org.avalgram.messenger.support.widget.RecyclerView;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.support.widget.LinearLayoutManager;
+import org.mougram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.FileLog;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.lang.reflect.Field;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.util;
+package org.mougram.messenger.exoplayer2.util;
 
 import android.Manifest.permission;
 import android.annotation.TargetApi;
@@ -30,11 +30,11 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlayerLibraryInfo;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlayerLibraryInfo;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.File;

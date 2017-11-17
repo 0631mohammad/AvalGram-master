@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata;
+package org.mougram.messenger.exoplayer2.metadata;
 
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
 
 /**
  * A {@link DecoderInputBuffer} for a {@link MetadataDecoder}.

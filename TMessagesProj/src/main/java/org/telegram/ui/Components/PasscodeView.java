@@ -46,14 +46,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.UserConfig;
-import org.avalgram.messenger.support.fingerprint.FingerprintManagerCompat;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.R;
+import org.mougram.messenger.UserConfig;
+import org.mougram.messenger.support.fingerprint.FingerprintManagerCompat;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.Theme;
 

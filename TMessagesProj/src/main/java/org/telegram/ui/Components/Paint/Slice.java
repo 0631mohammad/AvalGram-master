@@ -4,10 +4,10 @@ import android.graphics.RectF;
 import android.os.Handler;
 import android.os.HandlerThread;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.DispatchQueue;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.DispatchQueue;
+import org.mougram.messenger.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

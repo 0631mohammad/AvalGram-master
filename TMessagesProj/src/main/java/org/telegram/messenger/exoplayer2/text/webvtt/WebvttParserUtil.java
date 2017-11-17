@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.webvtt;
+package org.mougram.messenger.exoplayer2.text.webvtt;
 
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoderException;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

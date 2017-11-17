@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.camera;
+package org.mougram.messenger.camera;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -20,12 +20,12 @@ import android.media.ThumbnailUtils;
 import android.os.Build;
 import android.provider.MediaStore;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.Bitmaps;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.Bitmaps;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.Utilities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -548,7 +548,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
                             recorder.setMaxFileSize(1024 * 1024 * 1024);
                             recorder.setVideoFrameRate(30);
                             recorder.setMaxDuration(0);
-                            org.avalgram.messenger.camera.Size pictureSize;
+                            org.mougram.messenger.camera.Size pictureSize;
                             if (recordingSmallVideo) {
                                 pictureSize = new Size(4, 3);
                                 pictureSize = CameraController.chooseOptimalSize(info.getPictureSizes(), 640, 480, pictureSize);

@@ -13,8 +13,8 @@ import android.content.Context;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.R;
 import org.telegram.ui.Components.LayoutHelper;
 
 @SuppressLint("NewApi")

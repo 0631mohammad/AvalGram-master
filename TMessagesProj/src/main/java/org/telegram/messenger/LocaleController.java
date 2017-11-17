@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -19,7 +19,7 @@ import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.util.Xml;
 
-import org.avalgram.messenger.time.FastDateFormat;
+import org.mougram.messenger.time.FastDateFormat;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

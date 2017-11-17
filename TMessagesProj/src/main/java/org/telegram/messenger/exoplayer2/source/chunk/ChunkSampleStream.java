@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.chunk;
+package org.mougram.messenger.exoplayer2.source.chunk;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.FormatHolder;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.avalgram.messenger.exoplayer2.extractor.DefaultTrackOutput;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.source.SampleStream;
-import org.avalgram.messenger.exoplayer2.source.SequenceableLoader;
-import org.avalgram.messenger.exoplayer2.upstream.Allocator;
-import org.avalgram.messenger.exoplayer2.upstream.Loader;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.FormatHolder;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.extractor.DefaultTrackOutput;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.source.SampleStream;
+import org.mougram.messenger.exoplayer2.source.SequenceableLoader;
+import org.mougram.messenger.exoplayer2.upstream.Allocator;
+import org.mougram.messenger.exoplayer2.upstream.Loader;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;

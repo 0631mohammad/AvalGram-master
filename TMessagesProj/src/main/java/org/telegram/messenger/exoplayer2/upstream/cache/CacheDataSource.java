@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
 import android.net.Uri;
 import android.support.annotation.IntDef;
 import android.support.annotation.Nullable;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.upstream.DataSink;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSourceException;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.FileDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.TeeDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.upstream.DataSink;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSourceException;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.FileDataSource;
+import org.mougram.messenger.exoplayer2.upstream.TeeDataSource;
+import org.mougram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.lang.annotation.Retention;

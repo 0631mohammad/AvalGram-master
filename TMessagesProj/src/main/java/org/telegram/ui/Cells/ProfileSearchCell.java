@@ -17,17 +17,17 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ChatObject;
-import org.avalgram.messenger.ImageReceiver;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.UserObject;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ChatObject;
+import org.mougram.messenger.ImageReceiver;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.UserObject;
+import org.mougram.messenger.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
-import org.avalgram.messenger.UserConfig;
+import org.mougram.messenger.UserConfig;
 import org.telegram.ui.Components.AvatarDrawable;
 import org.telegram.ui.ActionBar.Theme;
 

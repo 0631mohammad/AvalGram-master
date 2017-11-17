@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor;
+package org.mougram.messenger.exoplayer2.extractor;
 
-import org.avalgram.messenger.exoplayer2.extractor.flv.FlvExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.mkv.MatroskaExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp3.Mp3Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.Mp4Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ogg.OggExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.Ac3Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.AdtsExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
-import org.avalgram.messenger.exoplayer2.extractor.ts.PsExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.wav.WavExtractor;
+import org.mougram.messenger.exoplayer2.extractor.flv.FlvExtractor;
+import org.mougram.messenger.exoplayer2.extractor.mkv.MatroskaExtractor;
+import org.mougram.messenger.exoplayer2.extractor.mp3.Mp3Extractor;
+import org.mougram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import org.mougram.messenger.exoplayer2.extractor.mp4.Mp4Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ogg.OggExtractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.Ac3Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.AdtsExtractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
+import org.mougram.messenger.exoplayer2.extractor.ts.PsExtractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsExtractor;
+import org.mougram.messenger.exoplayer2.extractor.wav.WavExtractor;
 import java.lang.reflect.Constructor;
 
 /**
@@ -54,7 +54,7 @@ public final class DefaultExtractorsFactory implements ExtractorsFactory {
     Constructor<? extends Extractor> flacExtractorConstructor = null;
     try {
       flacExtractorConstructor =
-          Class.forName("org.avalgram.messenger.exoplayer2.ext.flac.FlacExtractor")
+          Class.forName("org.mougram.messenger.exoplayer2.ext.flac.FlacExtractor")
               .asSubclass(Extractor.class).getConstructor();
     } catch (ClassNotFoundException e) {
       // Extractor not found.

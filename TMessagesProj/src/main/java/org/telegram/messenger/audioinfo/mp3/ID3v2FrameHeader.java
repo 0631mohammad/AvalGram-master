@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.audioinfo.mp3;
+package org.mougram.messenger.audioinfo.mp3;
 
 import java.io.IOException;
 

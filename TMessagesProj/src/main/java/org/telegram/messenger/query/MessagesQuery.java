@@ -6,21 +6,21 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.query;
+package org.mougram.messenger.query;
 
 import android.text.Spannable;
 import android.text.TextUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLitePreparedStatement;
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.MessageObject;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.MessagesStorage;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.MessageObject;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.MessagesStorage;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.Utilities;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

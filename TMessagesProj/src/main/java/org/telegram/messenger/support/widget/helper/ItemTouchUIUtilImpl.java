@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget.helper;
+package org.mougram.messenger.support.widget.helper;
 
 import android.graphics.Canvas;
 import android.support.v4.view.ViewCompat;
-import org.avalgram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.support.widget.RecyclerView;
 import android.view.View;
 
 

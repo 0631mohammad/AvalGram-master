@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.video;
+package org.mougram.messenger.video;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

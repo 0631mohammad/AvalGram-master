@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.support.annotation.Nullable;
-import org.avalgram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.avalgram.messenger.exoplayer2.source.ConcatenatingMediaSource;
-import org.avalgram.messenger.exoplayer2.source.ExtractorMediaSource;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.source.MergingMediaSource;
-import org.avalgram.messenger.exoplayer2.source.SingleSampleMediaSource;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.text.TextRenderer;
-import org.avalgram.messenger.exoplayer2.trackselection.DefaultTrackSelector;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
+import org.mougram.messenger.exoplayer2.audio.MediaCodecAudioRenderer;
+import org.mougram.messenger.exoplayer2.metadata.MetadataRenderer;
+import org.mougram.messenger.exoplayer2.source.ConcatenatingMediaSource;
+import org.mougram.messenger.exoplayer2.source.ExtractorMediaSource;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.source.MergingMediaSource;
+import org.mougram.messenger.exoplayer2.source.SingleSampleMediaSource;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.text.TextRenderer;
+import org.mougram.messenger.exoplayer2.trackselection.DefaultTrackSelector;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelectionArray;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelector;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.video.MediaCodecVideoRenderer;
 
 /**
  * An extensible media player exposing traditional high-level media player functionality, such as

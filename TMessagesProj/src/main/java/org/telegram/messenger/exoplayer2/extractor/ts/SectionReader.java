@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ts;
+package org.mougram.messenger.exoplayer2.extractor.ts;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.TimestampAdjuster;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorOutput;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.TimestampAdjuster;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 /**
  * Reads section data packets and feeds the whole sections to a given {@link SectionPayloadReader}.

@@ -17,7 +17,7 @@ import android.text.TextPaint;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 
 import java.util.Locale;
 

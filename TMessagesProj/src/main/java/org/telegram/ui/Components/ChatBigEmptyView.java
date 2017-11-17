@@ -17,9 +17,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

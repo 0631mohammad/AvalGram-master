@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.util;
+package org.mougram.messenger.exoplayer2.util;
 
 import android.os.SystemClock;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.PlaybackParameters;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.PlaybackParameters;
 
 /**
  * A {@link MediaClock} whose position advances with real time based on the playback parameters when

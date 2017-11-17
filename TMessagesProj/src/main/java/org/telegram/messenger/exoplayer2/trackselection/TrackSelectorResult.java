@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.trackselection;
+package org.mougram.messenger.exoplayer2.trackselection;
 
-import org.avalgram.messenger.exoplayer2.RendererConfiguration;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.RendererConfiguration;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 /**
  * The result of a {@link TrackSelector} operation.

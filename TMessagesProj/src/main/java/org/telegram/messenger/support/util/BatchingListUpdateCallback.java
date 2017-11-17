@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.support.util;
+package org.mougram.messenger.support.util;
 
 /**
  * Wraps a {@link ListUpdateCallback} callback and batches operations that can be merged.

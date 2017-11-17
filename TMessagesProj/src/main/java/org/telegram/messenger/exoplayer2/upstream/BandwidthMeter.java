@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream;
+package org.mougram.messenger.exoplayer2.upstream;
 
 /**
  * Provides estimates of the currently available bandwidth.

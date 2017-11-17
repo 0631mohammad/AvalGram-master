@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata.scte35;
+package org.mougram.messenger.exoplayer2.metadata.scte35;
 
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
 
 /**
  * Superclass for SCTE35 splice commands.

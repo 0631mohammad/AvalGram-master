@@ -17,7 +17,7 @@ import android.text.TextDirectionHeuristics;
 import android.text.TextPaint;
 import android.text.TextUtils;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.lang.reflect.Constructor;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.ui;
+package org.mougram.messenger.exoplayer2.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -35,9 +35,9 @@ import android.text.style.AbsoluteSizeSpan;
 import android.text.style.RelativeSizeSpan;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.text.CaptionStyleCompat;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.text.CaptionStyleCompat;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 /**
  * Paints subtitle {@link Cue}s.

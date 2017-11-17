@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static org.avalgram.messenger.support.widget.RecyclerView.NO_POSITION;
-import static org.avalgram.messenger.support.widget.RecyclerView.VERBOSE_TRACING;
+import static org.mougram.messenger.support.widget.RecyclerView.NO_POSITION;
+import static org.mougram.messenger.support.widget.RecyclerView.VERBOSE_TRACING;
 
 import android.content.Context;
 import android.graphics.PointF;
@@ -29,8 +29,8 @@ import android.support.v4.os.TraceCompat;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.accessibility.AccessibilityEventCompat;
 import android.support.v4.view.accessibility.AccessibilityRecordCompat;
-import org.avalgram.messenger.support.widget.RecyclerView.LayoutParams;
-import org.avalgram.messenger.support.widget.helper.ItemTouchHelper;
+import org.mougram.messenger.support.widget.RecyclerView.LayoutParams;
+import org.mougram.messenger.support.widget.helper.ItemTouchHelper;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;

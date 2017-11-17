@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash.manifest;
+package org.mougram.messenger.exoplayer2.source.dash.manifest;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
-import org.avalgram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.UriUtil;
-import org.avalgram.messenger.exoplayer2.util.Util;
-import org.avalgram.messenger.exoplayer2.util.XmlPullParserUtil;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
+import org.mougram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import org.mougram.messenger.exoplayer2.upstream.ParsingLoadable;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.UriUtil;
+import org.mougram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.util.XmlPullParserUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

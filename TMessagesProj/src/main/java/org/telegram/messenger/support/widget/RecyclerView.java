@@ -15,7 +15,7 @@
  */
 
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
 
@@ -54,8 +54,8 @@ import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.support.v4.view.accessibility.AccessibilityRecordCompat;
 import android.support.v4.widget.EdgeEffectCompat;
 import android.support.v4.widget.ScrollerCompat;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.SparseArray;

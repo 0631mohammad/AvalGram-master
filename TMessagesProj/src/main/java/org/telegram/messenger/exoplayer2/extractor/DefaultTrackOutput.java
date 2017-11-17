@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor;
+package org.mougram.messenger.exoplayer2.extractor;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.FormatHolder;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.avalgram.messenger.exoplayer2.upstream.Allocation;
-import org.avalgram.messenger.exoplayer2.upstream.Allocator;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.FormatHolder;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.upstream.Allocation;
+import org.mougram.messenger.exoplayer2.upstream.Allocator;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.EOFException;
 import java.io.IOException;
 import java.nio.ByteBuffer;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget.helper;
+package org.mougram.messenger.support.widget.helper;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -30,11 +30,11 @@ import android.support.v4.view.MotionEventCompat;
 import android.support.v4.view.VelocityTrackerCompat;
 import android.support.v4.view.ViewCompat;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.support.widget.LinearLayoutManager;
-import org.avalgram.messenger.support.widget.RecyclerView;
-import org.avalgram.messenger.support.widget.RecyclerView.OnItemTouchListener;
-import org.avalgram.messenger.support.widget.RecyclerView.ViewHolder;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.support.widget.LinearLayoutManager;
+import org.mougram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.support.widget.RecyclerView.OnItemTouchListener;
+import org.mougram.messenger.support.widget.RecyclerView.ViewHolder;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.HapticFeedbackConstants;

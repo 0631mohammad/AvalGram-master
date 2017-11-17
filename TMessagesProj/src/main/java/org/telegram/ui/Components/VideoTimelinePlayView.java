@@ -23,9 +23,9 @@ import android.os.AsyncTask;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.R;
 
 import java.util.ArrayList;
 

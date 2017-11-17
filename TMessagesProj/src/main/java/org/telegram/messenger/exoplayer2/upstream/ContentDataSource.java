@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream;
+package org.mougram.messenger.exoplayer2.upstream;
 
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.C;
 import java.io.EOFException;
 import java.io.FileInputStream;
 import java.io.IOException;

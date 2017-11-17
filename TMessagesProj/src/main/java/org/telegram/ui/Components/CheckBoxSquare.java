@@ -17,7 +17,7 @@ import android.graphics.RectF;
 import android.support.annotation.Keep;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class CheckBoxSquare extends View {

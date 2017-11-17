@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.avalgram.messenger.support.widget.RecyclerView.LayoutManager;
-import org.avalgram.messenger.support.widget.RecyclerView.SmoothScroller.ScrollVectorProvider;
+import org.mougram.messenger.support.widget.RecyclerView.LayoutManager;
+import org.mougram.messenger.support.widget.RecyclerView.SmoothScroller.ScrollVectorProvider;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;

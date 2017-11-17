@@ -18,8 +18,8 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
 
 public class ClippingImageView extends View {
 

@@ -37,14 +37,14 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.Bitmaps;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.MediaController;
-import org.avalgram.messenger.MessageObject;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.Bitmaps;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.MediaController;
+import org.mougram.messenger.MessageObject;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.exoplayer2.ui.AspectRatioFrameLayout;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.Theme;
 

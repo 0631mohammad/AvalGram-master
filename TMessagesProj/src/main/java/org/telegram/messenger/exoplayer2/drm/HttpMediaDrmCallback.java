@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 import android.annotation.TargetApi;
 import android.net.Uri;
 import android.text.TextUtils;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
-import org.avalgram.messenger.exoplayer2.upstream.DataSourceInputStream;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.HttpDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.HttpDataSource.Factory;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import org.mougram.messenger.exoplayer2.upstream.DataSourceInputStream;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.HttpDataSource;
+import org.mougram.messenger.exoplayer2.upstream.HttpDataSource.Factory;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;

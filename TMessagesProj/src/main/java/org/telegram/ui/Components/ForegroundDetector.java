@@ -14,7 +14,7 @@ import android.app.Application;
 import android.os.Build;
 import android.os.Bundle;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

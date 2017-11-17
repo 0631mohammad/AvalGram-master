@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.webvtt;
+package org.mougram.messenger.exoplayer2.text.webvtt;
 
 import android.text.Layout.Alignment;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.Cue;
 
 /**
  * A representation of a WebVTT cue.

@@ -19,12 +19,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.Bitmaps;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.Bitmaps;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.R;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.ActionBarMenu;
 import org.telegram.ui.ActionBar.BaseFragment;

@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ogg;
+package org.mougram.messenger.exoplayer2.extractor.ogg;
 
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 
 /**
  * Wraps a byte array, providing methods that allow it to be read as a vorbis bitstream.

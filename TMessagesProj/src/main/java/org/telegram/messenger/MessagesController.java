@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,12 +22,12 @@ import android.util.SparseIntArray;
 import android.widget.Toast;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.avalgram.messenger.query.BotQuery;
-import org.avalgram.messenger.query.DraftQuery;
-import org.avalgram.messenger.query.MessagesQuery;
-import org.avalgram.messenger.query.SearchQuery;
-import org.avalgram.messenger.query.StickersQuery;
-import org.avalgram.messenger.voip.VoIPService;
+import org.mougram.messenger.query.BotQuery;
+import org.mougram.messenger.query.DraftQuery;
+import org.mougram.messenger.query.MessagesQuery;
+import org.mougram.messenger.query.SearchQuery;
+import org.mougram.messenger.query.StickersQuery;
+import org.mougram.messenger.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.RequestDelegate;

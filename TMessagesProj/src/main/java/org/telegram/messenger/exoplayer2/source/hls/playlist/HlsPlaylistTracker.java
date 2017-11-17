@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls.playlist;
+package org.mougram.messenger.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.SystemClock;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.avalgram.messenger.exoplayer2.source.hls.HlsDataSourceFactory;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.Loader;
-import org.avalgram.messenger.exoplayer2.upstream.ParsingLoadable;
-import org.avalgram.messenger.exoplayer2.util.UriUtil;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import org.mougram.messenger.exoplayer2.source.hls.HlsDataSourceFactory;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.Loader;
+import org.mougram.messenger.exoplayer2.upstream.ParsingLoadable;
+import org.mougram.messenger.exoplayer2.util.UriUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.IdentityHashMap;

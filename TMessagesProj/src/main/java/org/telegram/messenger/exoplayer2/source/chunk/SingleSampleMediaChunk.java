@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.chunk;
+package org.mougram.messenger.exoplayer2.source.chunk;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.DefaultExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.DefaultExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

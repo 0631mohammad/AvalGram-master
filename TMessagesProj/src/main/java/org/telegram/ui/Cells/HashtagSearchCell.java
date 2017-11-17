@@ -14,7 +14,7 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class HashtagSearchCell extends TextView {

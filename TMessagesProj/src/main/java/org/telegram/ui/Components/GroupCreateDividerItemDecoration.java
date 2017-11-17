@@ -11,9 +11,9 @@ package org.telegram.ui.Components;
 import android.graphics.*;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.support.widget.RecyclerView;
 import org.telegram.ui.ActionBar.Theme;
 
 public class GroupCreateDividerItemDecoration extends RecyclerView.ItemDecoration {

@@ -15,7 +15,7 @@ import android.os.Build;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.ui.Components.Crop.CropRotationWheel;
 import org.telegram.ui.Components.Crop.CropView;
 

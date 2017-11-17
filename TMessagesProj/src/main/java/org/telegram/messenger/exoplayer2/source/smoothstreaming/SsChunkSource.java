@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.smoothstreaming;
+package org.mougram.messenger.exoplayer2.source.smoothstreaming;
 
-import org.avalgram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkSource;
-import org.avalgram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import org.mougram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkSource;
+import org.mougram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.upstream.LoaderErrorThrower;
 
 /**
  * A {@link ChunkSource} for SmoothStreaming.

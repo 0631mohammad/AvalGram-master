@@ -23,9 +23,9 @@ import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.R;
 
 public class EditTextCaption extends EditTextBoldCursor {
 

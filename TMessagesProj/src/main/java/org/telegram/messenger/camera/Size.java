@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.camera;
+package org.mougram.messenger.camera;
 
 public final class Size {
 

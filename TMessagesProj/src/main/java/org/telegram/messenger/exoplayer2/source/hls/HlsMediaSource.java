@@ -13,22 +13,22 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls;
+package org.mougram.messenger.exoplayer2.source.hls;
 
 import android.net.Uri;
 import android.os.Handler;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlayer;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.source.MediaPeriod;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.source.SinglePeriodTimeline;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import org.avalgram.messenger.exoplayer2.upstream.Allocator;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlayer;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.source.MediaPeriod;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.source.SinglePeriodTimeline;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import org.mougram.messenger.exoplayer2.upstream.Allocator;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.List;
 

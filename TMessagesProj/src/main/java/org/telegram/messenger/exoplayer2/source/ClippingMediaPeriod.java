@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source;
+package org.mougram.messenger.exoplayer2.source;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.FormatHolder;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderInputBuffer;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.FormatHolder;
+import org.mougram.messenger.exoplayer2.decoder.DecoderInputBuffer;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
 
 /**

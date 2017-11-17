@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.ttml;
+package org.mougram.messenger.exoplayer2.text.ttml;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.text.Subtitle;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.Subtitle;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;

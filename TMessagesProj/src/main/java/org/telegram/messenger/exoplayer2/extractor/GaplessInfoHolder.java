@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor;
+package org.mougram.messenger.exoplayer2.extractor;
 
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.metadata.id3.CommentFrame;
-import org.avalgram.messenger.exoplayer2.metadata.id3.Id3Decoder.FramePredicate;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.metadata.id3.CommentFrame;
+import org.mougram.messenger.exoplayer2.metadata.id3.Id3Decoder.FramePredicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

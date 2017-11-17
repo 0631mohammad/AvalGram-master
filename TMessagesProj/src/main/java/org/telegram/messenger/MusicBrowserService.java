@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -37,8 +37,8 @@ import android.service.media.MediaBrowserService;
 import android.text.TextUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
-import org.avalgram.messenger.audioinfo.AudioInfo;
-import org.avalgram.messenger.query.SharedMediaQuery;
+import org.mougram.messenger.audioinfo.AudioInfo;
+import org.mougram.messenger.query.SharedMediaQuery;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.LaunchActivity;

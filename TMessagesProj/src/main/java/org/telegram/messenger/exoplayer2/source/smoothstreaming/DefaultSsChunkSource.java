@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.smoothstreaming;
+package org.mougram.messenger.exoplayer2.source.smoothstreaming;
 
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.Track;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import org.avalgram.messenger.exoplayer2.source.BehindLiveWindowException;
-import org.avalgram.messenger.exoplayer2.source.chunk.Chunk;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkHolder;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
-import org.avalgram.messenger.exoplayer2.source.chunk.ContainerMediaChunk;
-import org.avalgram.messenger.exoplayer2.source.chunk.MediaChunk;
-import org.avalgram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import org.avalgram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import org.mougram.messenger.exoplayer2.extractor.mp4.Track;
+import org.mougram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import org.mougram.messenger.exoplayer2.source.BehindLiveWindowException;
+import org.mougram.messenger.exoplayer2.source.chunk.Chunk;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkExtractorWrapper;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkHolder;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkedTrackBlacklistUtil;
+import org.mougram.messenger.exoplayer2.source.chunk.ContainerMediaChunk;
+import org.mougram.messenger.exoplayer2.source.chunk.MediaChunk;
+import org.mougram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import org.mougram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest.StreamElement;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.LoaderErrorThrower;
 import java.io.IOException;
 import java.util.List;
 

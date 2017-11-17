@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.flv;
+package org.mougram.messenger.exoplayer2.extractor.flv;
 
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.util.CodecSpecificDataUtil;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.util.CodecSpecificDataUtil;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.util.Collections;
 
 /**

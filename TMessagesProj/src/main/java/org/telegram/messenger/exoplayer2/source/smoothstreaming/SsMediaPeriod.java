@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.smoothstreaming;
+package org.mougram.messenger.exoplayer2.source.smoothstreaming;
 
 import android.util.Base64;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import org.avalgram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import org.avalgram.messenger.exoplayer2.source.CompositeSequenceableLoader;
-import org.avalgram.messenger.exoplayer2.source.MediaPeriod;
-import org.avalgram.messenger.exoplayer2.source.SampleStream;
-import org.avalgram.messenger.exoplayer2.source.SequenceableLoader;
-import org.avalgram.messenger.exoplayer2.source.TrackGroup;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkSampleStream;
-import org.avalgram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import org.avalgram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.upstream.Allocator;
-import org.avalgram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import org.mougram.messenger.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import org.mougram.messenger.exoplayer2.source.CompositeSequenceableLoader;
+import org.mougram.messenger.exoplayer2.source.MediaPeriod;
+import org.mougram.messenger.exoplayer2.source.SampleStream;
+import org.mougram.messenger.exoplayer2.source.SequenceableLoader;
+import org.mougram.messenger.exoplayer2.source.TrackGroup;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkSampleStream;
+import org.mougram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import org.mougram.messenger.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.upstream.Allocator;
+import org.mougram.messenger.exoplayer2.upstream.LoaderErrorThrower;
 import java.io.IOException;
 import java.util.ArrayList;
 

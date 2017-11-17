@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash;
+package org.mougram.messenger.exoplayer2.source.dash;
 
-import org.avalgram.messenger.exoplayer2.source.chunk.ChunkSource;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.DashManifest;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.upstream.LoaderErrorThrower;
+import org.mougram.messenger.exoplayer2.source.chunk.ChunkSource;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.DashManifest;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.upstream.LoaderErrorThrower;
 
 /**
  * An {@link ChunkSource} for DASH streams.

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 import android.annotation.TargetApi;
 import android.media.MediaCrypto;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 
 /**
  * An {@link ExoMediaCrypto} implementation that wraps the framework {@link MediaCrypto}.

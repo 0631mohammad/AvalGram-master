@@ -38,14 +38,14 @@ import android.util.StateSet;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.R;
+import org.mougram.messenger.Utilities;
 import org.telegram.ui.Components.CombinedDrawable;
 import org.telegram.ui.Components.ThemeEditorView;
 

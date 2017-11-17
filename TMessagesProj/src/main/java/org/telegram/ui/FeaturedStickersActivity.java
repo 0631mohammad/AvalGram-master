@@ -13,12 +13,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.query.StickersQuery;
-import org.avalgram.messenger.support.widget.LinearLayoutManager;
-import org.avalgram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.R;
+import org.mougram.messenger.query.StickersQuery;
+import org.mougram.messenger.support.widget.LinearLayoutManager;
+import org.mougram.messenger.support.widget.RecyclerView;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;

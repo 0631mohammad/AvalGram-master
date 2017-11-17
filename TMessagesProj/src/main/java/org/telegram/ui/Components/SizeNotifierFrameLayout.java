@@ -19,7 +19,7 @@ import android.os.Build;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.ActionBar;
 
 public class SizeNotifierFrameLayout extends FrameLayout {

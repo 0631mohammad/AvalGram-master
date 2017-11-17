@@ -14,7 +14,7 @@ import android.graphics.Paint;
 import android.graphics.RectF;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class ContextProgressView extends View {

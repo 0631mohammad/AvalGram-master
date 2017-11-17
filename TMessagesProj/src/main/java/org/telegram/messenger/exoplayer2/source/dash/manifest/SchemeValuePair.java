@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash.manifest;
+package org.mougram.messenger.exoplayer2.source.dash.manifest;
 
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 /**
  * A pair consisting of a scheme ID and value.

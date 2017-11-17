@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash;
+package org.mougram.messenger.exoplayer2.source.dash;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.RangedUri;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.RangedUri;
 
 /**
  * Indexes the segments within a media stream.

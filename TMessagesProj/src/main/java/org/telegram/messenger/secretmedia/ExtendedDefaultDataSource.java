@@ -6,20 +6,20 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.secretmedia;
+package org.mougram.messenger.secretmedia;
 
 import android.content.Context;
 import android.net.Uri;
 
-import org.avalgram.messenger.exoplayer2.upstream.AssetDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.ContentDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.upstream.DefaultHttpDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.FileDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.TransferListener;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.upstream.AssetDataSource;
+import org.mougram.messenger.exoplayer2.upstream.ContentDataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.upstream.DefaultHttpDataSource;
+import org.mougram.messenger.exoplayer2.upstream.FileDataSource;
+import org.mougram.messenger.exoplayer2.upstream.TransferListener;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.Util;
 
 import java.io.IOException;
 

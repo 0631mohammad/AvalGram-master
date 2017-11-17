@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash.manifest;
+package org.mougram.messenger.exoplayer2.source.dash.manifest;
 
 import java.util.Collections;
 import java.util.List;
@@ -35,7 +35,7 @@ public class AdaptationSet {
   public final int id;
 
   /**
-   * The type of the adaptation set. One of the {@link org.avalgram.messenger.exoplayer2.C}
+   * The type of the adaptation set. One of the {@link org.mougram.messenger.exoplayer2.C}
    * {@code TRACK_TYPE_*} constants.
    */
   public final int type;
@@ -53,7 +53,7 @@ public class AdaptationSet {
   /**
    * @param id A non-negative identifier for the adaptation set that's unique in the scope of its
    *     containing period, or {@link #ID_UNSET} if not specified.
-   * @param type The type of the adaptation set. One of the {@link org.avalgram.messenger.exoplayer2.C}
+   * @param type The type of the adaptation set. One of the {@link org.mougram.messenger.exoplayer2.C}
    *     {@code TRACK_TYPE_*} constants.
    * @param representations The {@link Representation}s in the adaptation set.
    * @param accessibilityDescriptors The accessibility descriptors in the adaptation set.

@@ -17,12 +17,12 @@ import android.text.TextPaint;
 import android.view.MotionEvent;
 import android.view.SoundEffectConstants;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.MediaController;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.FileLoader;
-import org.avalgram.messenger.MessageObject;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.MediaController;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.FileLoader;
+import org.mougram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.BaseCell;

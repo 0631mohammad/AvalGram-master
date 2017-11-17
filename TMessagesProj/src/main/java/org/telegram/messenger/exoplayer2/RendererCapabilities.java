@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
 
 /**
  * Defines the capabilities of a {@link Renderer}.

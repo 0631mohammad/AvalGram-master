@@ -18,14 +18,14 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.BuildConfig;
-import org.avalgram.messenger.FileLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.BuildConfig;
+import org.mougram.messenger.FileLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.R;
+import org.mougram.messenger.Utilities;
 import org.telegram.ui.ActionBar.AlertDialog;
 
 import java.io.File;

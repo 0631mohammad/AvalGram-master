@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.avalgram.messenger"
+    package="org.mougram.messenger"
     android:installLocation="auto">
 
     <supports-screens android:anyDensity="true"
@@ -115,7 +115,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="vnd.android.cursor.item/vnd.org.avalgram.messenger.android.profile"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.org.mougram.messenger.android.profile"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
@@ -166,7 +166,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">
         </activity>
         <activity
-            android:name="org.avalgram.messenger.OpenChatReceiver"
+            android:name="org.mougram.messenger.OpenChatReceiver"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:exported="true">
         </activity>
@@ -201,7 +201,7 @@
             android:name=".AutoMessageHeardReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.avalgram.messenger.ACTION_MESSAGE_HEARD"/>
+                <action android:name="org.mougram.messenger.ACTION_MESSAGE_HEARD"/>
             </intent-filter>
         </receiver>
 
@@ -209,7 +209,7 @@
             android:name=".AutoMessageReplyReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.avalgram.messenger.ACTION_MESSAGE_REPLY"/>
+                <action android:name="org.mougram.messenger.ACTION_MESSAGE_REPLY"/>
             </intent-filter>
         </receiver>
 
@@ -244,7 +244,7 @@
         </service>
 
         <service
-            android:name="org.avalgram.messenger.TgChooserTargetService"
+            android:name="org.mougram.messenger.TgChooserTargetService"
             android:label="@string/AppName"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>

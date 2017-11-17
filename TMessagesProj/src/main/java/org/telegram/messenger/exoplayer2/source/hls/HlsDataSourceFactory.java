@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls;
+package org.mougram.messenger.exoplayer2.source.hls;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
 
 /**
  * Creates {@link DataSource}s for HLS playlists, encryption and media chunks.

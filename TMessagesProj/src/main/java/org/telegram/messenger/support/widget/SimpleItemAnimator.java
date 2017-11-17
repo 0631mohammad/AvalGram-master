@@ -1,10 +1,10 @@
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import org.avalgram.messenger.support.widget.RecyclerView.Adapter;
-import org.avalgram.messenger.support.widget.RecyclerView.ViewHolder;
-import org.avalgram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import org.mougram.messenger.support.widget.RecyclerView.Adapter;
+import org.mougram.messenger.support.widget.RecyclerView.ViewHolder;
+import org.mougram.messenger.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 import android.util.Log;
 import android.view.View;
 

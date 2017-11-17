@@ -23,11 +23,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.MessageObject;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLoader;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.MessageObject;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLoader;
+import org.mougram.messenger.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BackupImageView;

@@ -6,7 +6,7 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package org.avalgram.messenger.voip;
+package org.mougram.messenger.voip;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -15,8 +15,8 @@ import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.os.SystemClock;
 
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.BuildConfig;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.BuildConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.voip.VoIPHelper;
 

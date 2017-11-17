@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger;
+package org.mougram.messenger;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,10 +28,10 @@ import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
-import org.avalgram.messenger.audioinfo.AudioInfo;
-import org.avalgram.messenger.query.DraftQuery;
-import org.avalgram.messenger.query.SearchQuery;
-import org.avalgram.messenger.query.StickersQuery;
+import org.mougram.messenger.audioinfo.AudioInfo;
+import org.mougram.messenger.query.DraftQuery;
+import org.mougram.messenger.query.SearchQuery;
+import org.mougram.messenger.query.StickersQuery;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;
 import org.telegram.tgnet.QuickAckDelegate;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.tx3g;
+package org.mougram.messenger.exoplayer2.text.tx3g;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -23,13 +23,13 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
-import org.avalgram.messenger.exoplayer2.text.Subtitle;
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.SimpleSubtitleDecoder;
+import org.mougram.messenger.exoplayer2.text.Subtitle;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoderException;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.nio.charset.Charset;
 import java.util.List;
 

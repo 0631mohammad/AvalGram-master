@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -22,18 +22,18 @@ import android.os.Process;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.ExoPlayer.ExoPlayerMessage;
-import org.avalgram.messenger.exoplayer2.source.MediaPeriod;
-import org.avalgram.messenger.exoplayer2.source.MediaSource;
-import org.avalgram.messenger.exoplayer2.source.SampleStream;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelection;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelectionArray;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelector;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelectorResult;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.MediaClock;
-import org.avalgram.messenger.exoplayer2.util.StandaloneMediaClock;
-import org.avalgram.messenger.exoplayer2.util.TraceUtil;
+import org.mougram.messenger.exoplayer2.ExoPlayer.ExoPlayerMessage;
+import org.mougram.messenger.exoplayer2.source.MediaPeriod;
+import org.mougram.messenger.exoplayer2.source.MediaSource;
+import org.mougram.messenger.exoplayer2.source.SampleStream;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelection;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelectionArray;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelector;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelectorResult;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.MediaClock;
+import org.mougram.messenger.exoplayer2.util.StandaloneMediaClock;
+import org.mougram.messenger.exoplayer2.util.TraceUtil;
 import java.io.IOException;
 
 /**

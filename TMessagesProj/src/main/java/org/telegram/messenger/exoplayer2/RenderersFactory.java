@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2;
+package org.mougram.messenger.exoplayer2;
 
 import android.os.Handler;
-import org.avalgram.messenger.exoplayer2.audio.AudioRendererEventListener;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataRenderer;
-import org.avalgram.messenger.exoplayer2.text.TextRenderer;
-import org.avalgram.messenger.exoplayer2.video.VideoRendererEventListener;
+import org.mougram.messenger.exoplayer2.audio.AudioRendererEventListener;
+import org.mougram.messenger.exoplayer2.metadata.MetadataRenderer;
+import org.mougram.messenger.exoplayer2.text.TextRenderer;
+import org.mougram.messenger.exoplayer2.video.VideoRendererEventListener;
 
 /**
  * Builds {@link Renderer} instances for use by a {@link SimpleExoPlayer}.

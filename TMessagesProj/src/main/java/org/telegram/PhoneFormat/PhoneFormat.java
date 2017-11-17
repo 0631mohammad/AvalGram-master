@@ -24,8 +24,8 @@
 
 package org.telegram.PhoneFormat;
 
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

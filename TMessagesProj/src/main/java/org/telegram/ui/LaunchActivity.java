@@ -40,34 +40,34 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 import org.telegram.PhoneFormat.PhoneFormat;
-import org.avalgram.messenger.BuildVars;
-import org.avalgram.messenger.ChatObject;
-import org.avalgram.messenger.ContactsController;
-import org.avalgram.messenger.ImageLoader;
-import org.avalgram.messenger.MediaController;
-import org.avalgram.messenger.MessageObject;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.MessagesStorage;
-import org.avalgram.messenger.NativeCrashManager;
-import org.avalgram.messenger.SendMessagesHelper;
-import org.avalgram.messenger.UserObject;
-import org.avalgram.messenger.Utilities;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.R;
-import org.avalgram.messenger.browser.Browser;
-import org.avalgram.messenger.camera.CameraController;
-import org.avalgram.messenger.query.DraftQuery;
-import org.avalgram.messenger.support.widget.LinearLayoutManager;
+import org.mougram.messenger.BuildVars;
+import org.mougram.messenger.ChatObject;
+import org.mougram.messenger.ContactsController;
+import org.mougram.messenger.ImageLoader;
+import org.mougram.messenger.MediaController;
+import org.mougram.messenger.MessageObject;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.MessagesStorage;
+import org.mougram.messenger.NativeCrashManager;
+import org.mougram.messenger.SendMessagesHelper;
+import org.mougram.messenger.UserObject;
+import org.mougram.messenger.Utilities;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.R;
+import org.mougram.messenger.browser.Browser;
+import org.mougram.messenger.camera.CameraController;
+import org.mougram.messenger.query.DraftQuery;
+import org.mougram.messenger.support.widget.LinearLayoutManager;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
-import org.avalgram.messenger.UserConfig;
+import org.mougram.messenger.UserConfig;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.Adapters.DrawerLayoutAdapter;
 import org.telegram.ui.ActionBar.ActionBarLayout;
@@ -1115,7 +1115,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
                                 }
                             }
                         }
-                    } else if (intent.getAction().equals("org.avalgram.messenger.OPEN_ACCOUNT")) {
+                    } else if (intent.getAction().equals("org.mougram.messenger.OPEN_ACCOUNT")) {
                         open_settings = 1;
                     } else if (intent.getAction().equals("new_dialog")) {
                         open_new_dialog = 1;

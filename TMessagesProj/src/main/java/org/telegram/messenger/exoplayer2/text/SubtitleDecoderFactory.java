@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text;
+package org.mougram.messenger.exoplayer2.text;
 
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.text.cea.Cea608Decoder;
-import org.avalgram.messenger.exoplayer2.text.cea.Cea708Decoder;
-import org.avalgram.messenger.exoplayer2.text.dvb.DvbDecoder;
-import org.avalgram.messenger.exoplayer2.text.subrip.SubripDecoder;
-import org.avalgram.messenger.exoplayer2.text.ttml.TtmlDecoder;
-import org.avalgram.messenger.exoplayer2.text.tx3g.Tx3gDecoder;
-import org.avalgram.messenger.exoplayer2.text.webvtt.Mp4WebvttDecoder;
-import org.avalgram.messenger.exoplayer2.text.webvtt.WebvttDecoder;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.text.cea.Cea608Decoder;
+import org.mougram.messenger.exoplayer2.text.cea.Cea708Decoder;
+import org.mougram.messenger.exoplayer2.text.dvb.DvbDecoder;
+import org.mougram.messenger.exoplayer2.text.subrip.SubripDecoder;
+import org.mougram.messenger.exoplayer2.text.ttml.TtmlDecoder;
+import org.mougram.messenger.exoplayer2.text.tx3g.Tx3gDecoder;
+import org.mougram.messenger.exoplayer2.text.webvtt.Mp4WebvttDecoder;
+import org.mougram.messenger.exoplayer2.text.webvtt.WebvttDecoder;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
 
 /**
  * A factory for {@link SubtitleDecoder} instances.

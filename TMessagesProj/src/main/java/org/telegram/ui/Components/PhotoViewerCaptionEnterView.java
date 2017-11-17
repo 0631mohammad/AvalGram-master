@@ -30,13 +30,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.Emoji;
-import org.avalgram.messenger.LocaleController;
-import org.avalgram.messenger.NotificationCenter;
-import org.avalgram.messenger.ApplicationLoader;
-import org.avalgram.messenger.FileLog;
-import org.avalgram.messenger.R;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.Emoji;
+import org.mougram.messenger.LocaleController;
+import org.mougram.messenger.NotificationCenter;
+import org.mougram.messenger.ApplicationLoader;
+import org.mougram.messenger.FileLog;
+import org.mougram.messenger.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

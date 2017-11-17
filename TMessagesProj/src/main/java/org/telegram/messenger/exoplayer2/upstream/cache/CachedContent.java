@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;

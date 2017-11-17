@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
 import android.util.Log;
 import android.util.SparseArray;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.AtomicFile;
-import org.avalgram.messenger.exoplayer2.util.ReusableBufferedOutputStream;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.upstream.cache.Cache.CacheException;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.AtomicFile;
+import org.mougram.messenger.exoplayer2.util.ReusableBufferedOutputStream;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -215,7 +215,7 @@ import javax.crypto.spec.SecretKeySpec;
 
   /**
    * Returns the content length for the given key if one set, or {@link
-   * org.avalgram.messenger.exoplayer2.C#LENGTH_UNSET} otherwise.
+   * org.mougram.messenger.exoplayer2.C#LENGTH_UNSET} otherwise.
    */
   public long getContentLength(String key) {
     CachedContent cachedContent = get(key);

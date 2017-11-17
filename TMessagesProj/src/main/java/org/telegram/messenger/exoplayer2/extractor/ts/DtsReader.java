@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.ts;
+package org.mougram.messenger.exoplayer2.extractor.ts;
 
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.audio.DtsUtil;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.audio.DtsUtil;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorOutput;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsPayloadReader.TrackIdGenerator;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 
 /**
  * Parses a continuous DTS byte stream and extracts individual samples.

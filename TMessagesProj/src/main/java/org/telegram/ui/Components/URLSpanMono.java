@@ -13,8 +13,8 @@ import android.graphics.Typeface;
 import android.text.TextPaint;
 import android.text.style.MetricAffectingSpan;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.MessagesController;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.MessagesController;
 import org.telegram.ui.ActionBar.Theme;
 
 public class URLSpanMono extends MetricAffectingSpan {

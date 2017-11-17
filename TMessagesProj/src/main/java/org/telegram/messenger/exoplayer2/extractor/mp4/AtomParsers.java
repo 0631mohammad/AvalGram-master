@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.extractor.mp4;
+package org.mougram.messenger.exoplayer2.extractor.mp4;
 
 import android.util.Log;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.audio.Ac3Util;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData;
-import org.avalgram.messenger.exoplayer2.extractor.GaplessInfoHolder;
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.CodecSpecificDataUtil;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
-import org.avalgram.messenger.exoplayer2.video.AvcConfig;
-import org.avalgram.messenger.exoplayer2.video.HevcConfig;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.audio.Ac3Util;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData;
+import org.mougram.messenger.exoplayer2.extractor.GaplessInfoHolder;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.CodecSpecificDataUtil;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.video.AvcConfig;
+import org.mougram.messenger.exoplayer2.video.HevcConfig;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

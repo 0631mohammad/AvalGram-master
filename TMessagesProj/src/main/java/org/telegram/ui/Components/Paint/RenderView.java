@@ -15,8 +15,8 @@ import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.egl.EGLSurface;
 
-import org.avalgram.messenger.DispatchQueue;
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.DispatchQueue;
+import org.mougram.messenger.FileLog;
 import org.telegram.ui.Components.Size;
 
 import java.util.concurrent.Semaphore;

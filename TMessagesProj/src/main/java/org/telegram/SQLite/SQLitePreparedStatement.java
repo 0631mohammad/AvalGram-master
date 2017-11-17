@@ -8,7 +8,7 @@
 
 package org.telegram.SQLite;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 import org.telegram.tgnet.NativeByteBuffer;
 
 import java.nio.ByteBuffer;

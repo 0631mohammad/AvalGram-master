@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.trackselection;
+package org.mougram.messenger.exoplayer2.trackselection;
 
-import org.avalgram.messenger.exoplayer2.ExoPlaybackException;
-import org.avalgram.messenger.exoplayer2.RendererCapabilities;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.ExoPlaybackException;
+import org.mougram.messenger.exoplayer2.RendererCapabilities;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
 
 /** Selects tracks to be consumed by available renderers. */
 public abstract class TrackSelector {

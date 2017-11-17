@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls;
+package org.mougram.messenger.exoplayer2.source.hls;
 
 import android.text.TextUtils;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.ParserException;
-import org.avalgram.messenger.exoplayer2.extractor.Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorOutput;
-import org.avalgram.messenger.exoplayer2.extractor.PositionHolder;
-import org.avalgram.messenger.exoplayer2.extractor.SeekMap;
-import org.avalgram.messenger.exoplayer2.extractor.TrackOutput;
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoderException;
-import org.avalgram.messenger.exoplayer2.text.webvtt.WebvttParserUtil;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.TimestampAdjuster;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.extractor.Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorOutput;
+import org.mougram.messenger.exoplayer2.extractor.PositionHolder;
+import org.mougram.messenger.exoplayer2.extractor.SeekMap;
+import org.mougram.messenger.exoplayer2.extractor.TrackOutput;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoderException;
+import org.mougram.messenger.exoplayer2.text.webvtt.WebvttParserUtil;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.TimestampAdjuster;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.regex.Matcher;

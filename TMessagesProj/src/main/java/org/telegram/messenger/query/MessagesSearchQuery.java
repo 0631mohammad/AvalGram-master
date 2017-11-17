@@ -6,15 +6,15 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.query;
+package org.mougram.messenger.query;
 
 import android.text.TextUtils;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.MessageObject;
-import org.avalgram.messenger.MessagesController;
-import org.avalgram.messenger.MessagesStorage;
-import org.avalgram.messenger.NotificationCenter;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.MessageObject;
+import org.mougram.messenger.MessagesController;
+import org.mougram.messenger.MessagesStorage;
+import org.mougram.messenger.NotificationCenter;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.RequestDelegate;
 import org.telegram.tgnet.TLObject;

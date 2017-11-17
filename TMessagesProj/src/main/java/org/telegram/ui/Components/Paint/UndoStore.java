@@ -1,6 +1,6 @@
 package org.telegram.ui.Components.Paint;
 
-import org.avalgram.messenger.AndroidUtilities;
+import org.mougram.messenger.AndroidUtilities;
 
 import java.util.ArrayList;
 import java.util.HashMap;

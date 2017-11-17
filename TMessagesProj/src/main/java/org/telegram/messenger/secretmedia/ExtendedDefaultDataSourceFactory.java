@@ -6,14 +6,14 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.secretmedia;
+package org.mougram.messenger.secretmedia;
 
 import android.content.Context;
 
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DefaultDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DefaultHttpDataSourceFactory;
-import org.avalgram.messenger.exoplayer2.upstream.TransferListener;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DefaultDataSource;
+import org.mougram.messenger.exoplayer2.upstream.DefaultHttpDataSourceFactory;
+import org.mougram.messenger.exoplayer2.upstream.TransferListener;
 
 public final class ExtendedDefaultDataSourceFactory implements DataSource.Factory {
 

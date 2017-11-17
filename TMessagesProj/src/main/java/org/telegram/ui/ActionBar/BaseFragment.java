@@ -19,7 +19,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.avalgram.messenger.FileLog;
+import org.mougram.messenger.FileLog;
 import org.telegram.tgnet.ConnectionsManager;
 
 public class BaseFragment {

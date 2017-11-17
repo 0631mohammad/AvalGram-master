@@ -13,31 +13,31 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.hls;
+package org.mougram.messenger.exoplayer2.source.hls;
 
 import android.text.TextUtils;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.extractor.DefaultExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ExtractorInput;
-import org.avalgram.messenger.exoplayer2.extractor.mp3.Mp3Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.Ac3Extractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.AdtsExtractor;
-import org.avalgram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
-import org.avalgram.messenger.exoplayer2.extractor.ts.TsExtractor;
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.metadata.id3.Id3Decoder;
-import org.avalgram.messenger.exoplayer2.metadata.id3.PrivFrame;
-import org.avalgram.messenger.exoplayer2.source.chunk.MediaChunk;
-import org.avalgram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import org.avalgram.messenger.exoplayer2.upstream.DataSource;
-import org.avalgram.messenger.exoplayer2.upstream.DataSpec;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
-import org.avalgram.messenger.exoplayer2.util.TimestampAdjuster;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.extractor.DefaultExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ExtractorInput;
+import org.mougram.messenger.exoplayer2.extractor.mp3.Mp3Extractor;
+import org.mougram.messenger.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.Ac3Extractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.AdtsExtractor;
+import org.mougram.messenger.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
+import org.mougram.messenger.exoplayer2.extractor.ts.TsExtractor;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.metadata.id3.Id3Decoder;
+import org.mougram.messenger.exoplayer2.metadata.id3.PrivFrame;
+import org.mougram.messenger.exoplayer2.source.chunk.MediaChunk;
+import org.mougram.messenger.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import org.mougram.messenger.exoplayer2.upstream.DataSource;
+import org.mougram.messenger.exoplayer2.upstream.DataSpec;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.util.TimestampAdjuster;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;

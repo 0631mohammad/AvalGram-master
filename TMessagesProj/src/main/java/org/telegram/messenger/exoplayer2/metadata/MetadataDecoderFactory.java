@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata;
+package org.mougram.messenger.exoplayer2.metadata;
 
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.metadata.emsg.EventMessageDecoder;
-import org.avalgram.messenger.exoplayer2.metadata.id3.Id3Decoder;
-import org.avalgram.messenger.exoplayer2.metadata.scte35.SpliceInfoDecoder;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.metadata.emsg.EventMessageDecoder;
+import org.mougram.messenger.exoplayer2.metadata.id3.Id3Decoder;
+import org.mougram.messenger.exoplayer2.metadata.scte35.SpliceInfoDecoder;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
 
 /**
  * A factory for {@link MetadataDecoder} instances.

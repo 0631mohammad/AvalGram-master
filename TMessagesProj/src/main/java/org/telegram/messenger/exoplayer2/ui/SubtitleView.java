@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.ui;
+package org.mougram.messenger.exoplayer2.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -23,10 +23,10 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.accessibility.CaptioningManager;
-import org.avalgram.messenger.exoplayer2.text.CaptionStyleCompat;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.text.TextRenderer;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.text.CaptionStyleCompat;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.TextRenderer;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 

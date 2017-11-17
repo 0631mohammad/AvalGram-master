@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.metadata.emsg;
+package org.mougram.messenger.exoplayer2.metadata.emsg;
 
-import org.avalgram.messenger.exoplayer2.metadata.Metadata;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataDecoder;
-import org.avalgram.messenger.exoplayer2.metadata.MetadataInputBuffer;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.metadata.Metadata;
+import org.mougram.messenger.exoplayer2.metadata.MetadataDecoder;
+import org.mougram.messenger.exoplayer2.metadata.MetadataInputBuffer;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 

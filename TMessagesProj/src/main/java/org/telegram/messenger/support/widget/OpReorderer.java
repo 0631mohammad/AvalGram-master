@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget;
+package org.mougram.messenger.support.widget;
 
 import java.util.List;
 
-import org.avalgram.messenger.support.widget.AdapterHelper.UpdateOp;
-import static org.avalgram.messenger.support.widget.AdapterHelper.UpdateOp.ADD;
-import static org.avalgram.messenger.support.widget.AdapterHelper.UpdateOp.MOVE;
-import static org.avalgram.messenger.support.widget.AdapterHelper.UpdateOp.REMOVE;
-import static org.avalgram.messenger.support.widget.AdapterHelper.UpdateOp.UPDATE;
+import org.mougram.messenger.support.widget.AdapterHelper.UpdateOp;
+import static org.mougram.messenger.support.widget.AdapterHelper.UpdateOp.ADD;
+import static org.mougram.messenger.support.widget.AdapterHelper.UpdateOp.MOVE;
+import static org.mougram.messenger.support.widget.AdapterHelper.UpdateOp.REMOVE;
+import static org.mougram.messenger.support.widget.AdapterHelper.UpdateOp.UPDATE;
 
 class OpReorderer {
 

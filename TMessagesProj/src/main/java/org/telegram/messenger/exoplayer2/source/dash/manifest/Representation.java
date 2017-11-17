@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source.dash.manifest;
+package org.mougram.messenger.exoplayer2.source.dash.manifest;
 
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.source.dash.DashSegmentIndex;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.MultiSegmentBase;
-import org.avalgram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.source.dash.DashSegmentIndex;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.MultiSegmentBase;
+import org.mougram.messenger.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
 import java.util.Collections;
 import java.util.List;
 

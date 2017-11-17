@@ -14,8 +14,8 @@ import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.MessageObject;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.MessageObject;
 
 public class SeekBarWaveform {
 

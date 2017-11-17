@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.ui;
+package org.mougram.messenger.exoplayer2.ui;
 
 import android.widget.TextView;
-import org.avalgram.messenger.exoplayer2.ExoPlaybackException;
-import org.avalgram.messenger.exoplayer2.ExoPlayer;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.PlaybackParameters;
-import org.avalgram.messenger.exoplayer2.SimpleExoPlayer;
-import org.avalgram.messenger.exoplayer2.Timeline;
-import org.avalgram.messenger.exoplayer2.decoder.DecoderCounters;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.trackselection.TrackSelectionArray;
+import org.mougram.messenger.exoplayer2.ExoPlaybackException;
+import org.mougram.messenger.exoplayer2.ExoPlayer;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.PlaybackParameters;
+import org.mougram.messenger.exoplayer2.SimpleExoPlayer;
+import org.mougram.messenger.exoplayer2.Timeline;
+import org.mougram.messenger.exoplayer2.decoder.DecoderCounters;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.trackselection.TrackSelectionArray;
 
 /**
  * A helper class for periodically updating a {@link TextView} with debug information obtained from

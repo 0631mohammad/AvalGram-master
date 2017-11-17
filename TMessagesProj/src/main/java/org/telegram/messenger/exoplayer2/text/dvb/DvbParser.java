@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.dvb;
+package org.mougram.messenger.exoplayer2.text.dvb;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -24,9 +24,9 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Region;
 import android.util.Log;
 import android.util.SparseArray;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.util.ParsableBitArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.util.ParsableBitArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

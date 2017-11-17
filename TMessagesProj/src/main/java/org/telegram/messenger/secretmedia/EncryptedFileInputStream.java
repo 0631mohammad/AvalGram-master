@@ -6,9 +6,9 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package org.avalgram.messenger.secretmedia;
+package org.mougram.messenger.secretmedia;
 
-import org.avalgram.messenger.Utilities;
+import org.mougram.messenger.Utilities;
 
 import java.io.File;
 import java.io.FileInputStream;

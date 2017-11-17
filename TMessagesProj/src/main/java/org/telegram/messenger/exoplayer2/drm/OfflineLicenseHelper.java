@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 import android.media.MediaDrm;
 import android.os.ConditionVariable;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.drm.DefaultDrmSessionManager.EventListener;
-import org.avalgram.messenger.exoplayer2.drm.DefaultDrmSessionManager.Mode;
-import org.avalgram.messenger.exoplayer2.drm.DrmSession.DrmSessionException;
-import org.avalgram.messenger.exoplayer2.upstream.HttpDataSource;
-import org.avalgram.messenger.exoplayer2.upstream.HttpDataSource.Factory;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.drm.DefaultDrmSessionManager.EventListener;
+import org.mougram.messenger.exoplayer2.drm.DefaultDrmSessionManager.Mode;
+import org.mougram.messenger.exoplayer2.drm.DrmSession.DrmSessionException;
+import org.mougram.messenger.exoplayer2.upstream.HttpDataSource;
+import org.mougram.messenger.exoplayer2.upstream.HttpDataSource.Factory;
+import org.mougram.messenger.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.HashMap;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.text.cea;
+package org.mougram.messenger.exoplayer2.text.cea;
 
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -26,16 +26,16 @@ import android.text.style.ForegroundColorSpan;
 import android.text.style.StyleSpan;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.Format;
-import org.avalgram.messenger.exoplayer2.text.Cue;
-import org.avalgram.messenger.exoplayer2.text.Cue.AnchorType;
-import org.avalgram.messenger.exoplayer2.text.Subtitle;
-import org.avalgram.messenger.exoplayer2.text.SubtitleDecoder;
-import org.avalgram.messenger.exoplayer2.text.SubtitleInputBuffer;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.ParsableBitArray;
-import org.avalgram.messenger.exoplayer2.util.ParsableByteArray;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.Format;
+import org.mougram.messenger.exoplayer2.text.Cue;
+import org.mougram.messenger.exoplayer2.text.Cue.AnchorType;
+import org.mougram.messenger.exoplayer2.text.Subtitle;
+import org.mougram.messenger.exoplayer2.text.SubtitleDecoder;
+import org.mougram.messenger.exoplayer2.text.SubtitleInputBuffer;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.ParsableBitArray;
+import org.mougram.messenger.exoplayer2.util.ParsableByteArray;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;

@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.trackselection;
+package org.mougram.messenger.exoplayer2.trackselection;
 
 import android.content.Context;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.ExoPlaybackException;
-import org.avalgram.messenger.exoplayer2.RendererCapabilities;
-import org.avalgram.messenger.exoplayer2.RendererConfiguration;
-import org.avalgram.messenger.exoplayer2.source.TrackGroup;
-import org.avalgram.messenger.exoplayer2.source.TrackGroupArray;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.ExoPlaybackException;
+import org.mougram.messenger.exoplayer2.RendererCapabilities;
+import org.mougram.messenger.exoplayer2.RendererConfiguration;
+import org.mougram.messenger.exoplayer2.source.TrackGroup;
+import org.mougram.messenger.exoplayer2.source.TrackGroupArray;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;

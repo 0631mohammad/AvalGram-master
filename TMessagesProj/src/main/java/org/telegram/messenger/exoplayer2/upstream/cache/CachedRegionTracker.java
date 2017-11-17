@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.upstream.cache;
+package org.mougram.messenger.exoplayer2.upstream.cache;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
-import org.avalgram.messenger.exoplayer2.extractor.ChunkIndex;
+import org.mougram.messenger.exoplayer2.extractor.ChunkIndex;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NavigableSet;

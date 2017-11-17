@@ -12,8 +12,8 @@ import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.view.animation.DecelerateInterpolator;
 
-import org.avalgram.messenger.AndroidUtilities;
-import org.avalgram.messenger.NotificationCenter;
+import org.mougram.messenger.AndroidUtilities;
+import org.mougram.messenger.NotificationCenter;
 import org.telegram.ui.ActionBar.Theme;
 
 public class TypingDotsDrawable extends StatusDrawable {

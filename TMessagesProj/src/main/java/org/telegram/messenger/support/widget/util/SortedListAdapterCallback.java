@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.support.widget.util;
+package org.mougram.messenger.support.widget.util;
 
-import org.avalgram.messenger.support.util.SortedList;
-import org.avalgram.messenger.support.widget.RecyclerView;
+import org.mougram.messenger.support.util.SortedList;
+import org.mougram.messenger.support.widget.RecyclerView;
 
 /**
  * A {@link SortedList.Callback} implementation that can bind a {@link SortedList} to a

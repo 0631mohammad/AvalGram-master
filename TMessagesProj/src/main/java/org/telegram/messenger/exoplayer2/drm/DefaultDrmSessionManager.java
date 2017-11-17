@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.drm;
+package org.mougram.messenger.exoplayer2.drm;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -28,15 +28,15 @@ import android.support.annotation.IntDef;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
-import org.avalgram.messenger.exoplayer2.C;
-import org.avalgram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.OnEventListener;
-import org.avalgram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
-import org.avalgram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
-import org.avalgram.messenger.exoplayer2.util.Assertions;
-import org.avalgram.messenger.exoplayer2.util.MimeTypes;
-import org.avalgram.messenger.exoplayer2.util.Util;
+import org.mougram.messenger.exoplayer2.C;
+import org.mougram.messenger.exoplayer2.drm.DrmInitData.SchemeData;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.KeyRequest;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.OnEventListener;
+import org.mougram.messenger.exoplayer2.drm.ExoMediaDrm.ProvisionRequest;
+import org.mougram.messenger.exoplayer2.extractor.mp4.PsshAtomUtil;
+import org.mougram.messenger.exoplayer2.util.Assertions;
+import org.mougram.messenger.exoplayer2.util.MimeTypes;
+import org.mougram.messenger.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.HashMap;

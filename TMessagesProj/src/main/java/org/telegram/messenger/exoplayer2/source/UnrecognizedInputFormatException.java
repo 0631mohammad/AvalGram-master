@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.avalgram.messenger.exoplayer2.source;
+package org.mougram.messenger.exoplayer2.source;
 
 import android.net.Uri;
-import org.avalgram.messenger.exoplayer2.ParserException;
+import org.mougram.messenger.exoplayer2.ParserException;
 
 /**
  * Thrown if the input format was not recognized.

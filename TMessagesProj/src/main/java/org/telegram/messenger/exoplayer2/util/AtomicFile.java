@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.avalgram.messenger.exoplayer2.util;
+package org.mougram.messenger.exoplayer2.util;
 
 import android.support.annotation.NonNull;
 import android.util.Log;
